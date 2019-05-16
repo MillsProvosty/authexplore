@@ -1,0 +1,8 @@
+<section>
+   <% @users.each do |user| %>
+   <div id="user-<%= user.id %>">
+   <%= user.name %>
+   <%= user.email %>
+   <% end %>
+   </div>
+</section>
