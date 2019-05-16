@@ -1,6 +1,5 @@
 require 'rails_helper'
 
-
 RSpec.describe 'As a visitor to the User Index Page', type: :feature do
   it 'I click on Register as User and am taken to new user form' do
     visit users_path
